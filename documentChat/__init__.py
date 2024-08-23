@@ -3,5 +3,5 @@ import sys
 sys.modules['sqlite3'] = sys.modules.pop('pysqlite3')
 
 
-from .tools import EmbeddingModel
+from .tools import EmbeddingModel, pdfChat
 
