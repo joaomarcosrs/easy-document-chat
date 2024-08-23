@@ -11,7 +11,7 @@ pip install -r requirements.txt
 ```
 ### Usage:
 ```python3
-from documentChat import EmbeddingModel, pdfChat
+from documentChat import EmbeddingModel, PDFChat
 
 
 files_path = 'path/to/directory/with/pdfs/'
@@ -21,7 +21,7 @@ query_text = '<question string about the document>'
 embedding_model = EmbeddingModel(embedding='ollama')
 embedding = embedding_model.embedding(model='<ollama embedding model>')
 
-model = pdfChat(
+model = PDFChat(
     prompt=query_text,
     path=files_path,
     llm='ollama',
