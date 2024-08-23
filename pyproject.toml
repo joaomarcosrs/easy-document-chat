@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "easy-chat-document"
+name = "easy-document-chat"
 version = "0.1.0"
 description = ""
 authors = ["João Marcos <joaomarcosrs40@gmail.com>"]
