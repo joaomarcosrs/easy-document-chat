@@ -1,0 +1,7 @@
+[llm]
+    [llm.ollama]
+    install = 'curl -fsSL https://ollama.ai/install.sh | sh'
+    start = 'sudo systemctl start ollama.service'
+    stop = 'sudo systemctl stop ollama.service'
+    pull = 'ollama pull'
+    version = 'ollama --version'
