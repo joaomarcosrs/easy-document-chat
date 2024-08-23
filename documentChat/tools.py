@@ -39,7 +39,7 @@ class EmbeddingModel:
                 
                 return embed
 
-class pdfChat:
+class PDFChat:
     def __init__(self, prompt = None, path = None, llm = None, model = None, embedding = None):
         self._prompt = prompt
         self._path = path
