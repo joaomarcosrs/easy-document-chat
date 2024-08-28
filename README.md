@@ -10,6 +10,8 @@ git clone https://github.com/joaomarcosrs/easy-document-chat.git
 pip install -r requirements.txt
 ```
 ### Usage:
+- You must define the <ollama embedding model>, <ollama model> <chunk_size>, <chunk_overlap>, <k>.
+
 ```python3
 from documentChat import EmbeddingModel, PDFChat
 
@@ -25,7 +27,7 @@ model = PDFChat(
     prompt=query_text,
     path=files_path,
     llm='ollama',
-    model=<ollama model>,
+    model='<ollama model>',
     embedding=embedding,
 )
 model.run()
